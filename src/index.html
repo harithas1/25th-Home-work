@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        /* body {
+            background: linear-gradient(to left, rgb(167, 146, 146), skyblue, rgb(214, 214, 134));
+        } */
+
+        #login_form {
+            height: 8cm;
+            width: 6cm;
+            background: rgba(255, 255, 255, 0.2);
+            border: 5px solid gray;
+            margin-left: 40%;
+            margin-top: 10%;
+            padding: 20px;
+            text-align: center;
+            border-style: double;
+        }
+
+        #username, #password {
+            width: 90%;
+            padding: 6px;
+            background: transparent;
+            margin-bottom: 10px;
+            border: 1px solid grey;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        #reset {
+            height: 1cm;
+            width: 2.5cm;
+            background-color: rgb(211, 233, 139);
+            color: rgb(138, 39, 39);
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-left: 5px;
+            float: left;
+        }
+
+        #submit {
+            height: 1cm;
+            width: 2.5cm;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        #submit:hover{
+            color: white;
+            background-color: royalblue;
+        }
+
+        #reset:hover{
+            color: black;
+            background-color: lightcyan;
+        }
+
+
+    </style>
+</head>
+<body id="body">
+    <div id="login_form">
+        <h2>Login Form</h2>
+        <form action="https://www.w3schools.com/action_page.php">
+
+            <div>
+            <input type="text" name="username" id="username" placeholder="UserName">
+            </div>
+
+            <div>
+                <input type="password" name="password" id="password" placeholder="password">
+            </div>
+
+            <div>
+                <input type="reset" id="reset">
+                <input type="submit" value="submit" id="submit">
+            </div>
+        </form>
+    </div>
+    <button style="font-weight: bold; margin-left: 41%; color: white; background-color: blue; height: 1cm; width: 7cm; margin-top: 5%; border-radius: 30px;" onclick="">Change page background-color</button><br>  <!--when we click on this button it wil call the function-->
+    <div id="container">
+        <br>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
